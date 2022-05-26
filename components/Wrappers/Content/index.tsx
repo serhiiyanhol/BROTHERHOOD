@@ -1,7 +1,9 @@
 import React from 'react';
 
-export default ({ children }: { children: React.ReactNode }) => (
-  <div className="content">
-    {children}
-  </div>
-);
+export default function Content({ children }: { children: React.ReactNode }) {
+  return (
+    <div className="content">
+      {children}
+    </div>
+  );
+}

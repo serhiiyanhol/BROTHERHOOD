@@ -5,7 +5,7 @@ import WrapperLight from '../Wrappers/Light';
 import ActivityElement from './ActivityElement';
 import Subtitle from '../Wrappers/Subtitle';
 
-export default ({
+export default function Activity({
   title,
   activitySubtitle,
   activityList,
@@ -13,7 +13,7 @@ export default ({
   title: React.ReactNode,
   activitySubtitle: string,
   activityList: Asset[],
-}) => {
+}) {
   // let activities;
   // if (activityList && activityList?.length <= 5) {
   //

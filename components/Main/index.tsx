@@ -6,7 +6,7 @@ import WrapperDark from '../Wrappers/Dark';
 import NavListElement from '../../types';
 import Link from 'next/link';
 
-export default ({
+export default function Main({
   logo,
   title,
   subtitle,
@@ -18,7 +18,7 @@ export default ({
   subtitle: string,
   navList: NavListElement[],
   locale: string,
-}) => {
+}) {
   const navMenu = useRef<HTMLHeadingElement>(null);
   const main = useRef<HTMLHeadingElement>(null);
 
@@ -74,11 +74,13 @@ export default ({
             position: 'relative',
           }}
         >
-          <div style={{
-            position: 'absolute',
-            top: '1vw',
-            right: '1vw',
-          }}>
+          <div
+            style={{
+              position: 'absolute',
+              top: '1vw',
+              right: '1vw',
+            }}
+          >
             <Link href={path} locale={locale}>
               <a className="anchor">{locale}</a>
             </Link>

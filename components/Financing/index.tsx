@@ -5,7 +5,7 @@ import { documentToReactComponents } from '@contentful/rich-text-react-renderer'
 import WrapperDark from '../Wrappers/Dark';
 import Content from '../Wrappers/Content';
 
-export default ({
+export default function Financing({
   title,
   financingContent,
   financingContent2,
@@ -13,7 +13,7 @@ export default ({
   title: React.ReactNode,
   financingContent: Document,
   financingContent2: Document,
-}) => {
+}) {
   return (
     <WrapperLight id="financing">
       {title}

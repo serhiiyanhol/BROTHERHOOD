@@ -6,7 +6,7 @@ import WrapperLight from '../Wrappers/Light';
 import WrapperDark from '../Wrappers/Dark';
 import Content from '../Wrappers/Content';
 
-export default ({
+export default function Cooperation({
   title,
   cooperationContent,
   cooperationPartnersTitle,
@@ -16,7 +16,7 @@ export default ({
   cooperationContent: Document,
   cooperationPartnersTitle: string,
   cooperationPartnersList: string[],
-}) => {
+}) {
   return (
     <WrapperLight id="cooperation">
       {title}
