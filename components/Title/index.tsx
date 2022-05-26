@@ -2,7 +2,7 @@ import { Asset } from 'contentful';
 
 export default function Title({ title, logo }: { title: string, logo: Asset }) {
   return (
-    <div className="row g-0 m-0 pt-3">
+    <div className="row g-0 m-0 padding-t-3">
       <div
         style={{
           position: 'relative',

@@ -13,9 +13,7 @@ export default function ActivityElement({ item }: { item: Asset }): React.ReactE
         }}
         src={item.fields.file.url}
       />
-      <p
-        style={{ fontSize: '1vw' }}
-      >{item.fields.title} <span style={{ color: 'red' }}>{item.fields.description}</span></p>
+      <p>{item.fields.title} <span style={{ color: 'red' }}>{item.fields.description}</span></p>
     </div>
   );
 }

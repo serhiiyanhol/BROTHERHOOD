@@ -3,11 +3,11 @@ import React from 'react';
 
 export default function TeamMate({ item }: { item: Asset }): React.ReactElement {
   return (
-    <div className="col">
+    <div className="col padding-1">
       <img
         style={{
-          maxWidth: '200px',
-          maxHeight: '200px',
+          maxWidth: '12vw',
+          maxHeight: '12vw',
 
           height: 'auto',
           width: '100%',

@@ -74,9 +74,75 @@ a.anchor:hover {
 .content h1 {
   font-size: 4vw;
 }
+
 .content h2 {
   font-size: 3.5vw;
 }
+
 .content h3 {
   font-size: 3vw;
+}
+
+#team {
+  max-height: 1095px;
+  height: 120vw;
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-position: center;
+}
+
+#team p {
+  font-size: 2vw;
+}
+
+#activity p {
+  font-size: 1.5vw;
+  letter-spacing: 0.178em;
+}
+
+@media (max-width: 2560px) {
+  #team {
+    max-height: 1480px;
+  }
+}
+
+@media (max-width: 1930px) {
+  #team {
+    max-height: 1110px;
+  }
+}
+
+@media (max-width: 1440px) {
+  #team {
+    max-height: 850px;
+  }
+}
+
+@media (max-width: 1024px) {
+  #team {
+    max-height: 620px;
+  }
+}
+
+@media (max-width: 768px) {
+  #team {
+    max-height: 500px;
+  }
+}
+
+@media (max-width: 425px) {
+  #team {
+    max-height: 410px;
+    height: 72vw;
+  }
+  #team p {
+    font-size: 3vw;
+  }
+}
+
+@media (max-width: 320px) {
+  #team {
+    max-height: 430px;
+    height: 72vw;
+  }
 }

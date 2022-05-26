@@ -1,6 +1,6 @@
 import React from 'react';
-import WrapperDark from '../Wrappers/Dark';
 import { Asset } from 'contentful';
+import WrapperDark from '../Wrappers/Dark';
 import Row from '../Wrappers/Row';
 import TeamMate from './TeamMate';
 
@@ -18,17 +18,10 @@ export default function Team({
       <div
         id="team"
         style={{
-          maxHeight: '990px',
-          height: '120vw',
-          backgroundRepeat: 'no-repeat',
           backgroundImage: `url(https:${teamBackground.fields.file.url})`,
-          backgroundSize: '80%',
-          backgroundPosition: 'center',
         }}
       >
-        <div className="padding-tb-2">
-          {title}
-        </div>
+        {title}
         <div className="padding-3">
           <Row>
             <TeamMate item={teamPhotos[0]} />
@@ -36,7 +29,7 @@ export default function Team({
             <TeamMate item={teamPhotos[2]} />
             <TeamMate item={teamPhotos[3]} />
           </Row>
-          <div className="pt-5" />
+          <div className="padding-t-3" />
           <Row>
             <TeamMate item={teamPhotos[4]} />
             <TeamMate item={teamPhotos[5]} />
