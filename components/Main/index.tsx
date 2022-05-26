@@ -113,12 +113,12 @@ export default function Main({
         <div
           className="container-fluid"
           style={{
-            backgroundColor: '#353830'
+            backgroundColor: '#353830',
           }}
         >
           {navList && navList.length ? navList.map(item => (
             <Link href={`/#${item.id}`} key={item.id}>
-              <a className="navbar-brand anchor">{item.name}</a>
+              <a className="anchor">{item.name}</a>
             </Link>
           )) : null}
         </div>

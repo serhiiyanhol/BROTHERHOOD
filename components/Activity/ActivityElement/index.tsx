@@ -6,8 +6,8 @@ export default function ActivityElement({ item }: { item: Asset }): React.ReactE
     <div className="col padding-1">
       <img
         style={{
-          maxHeight: '110px',
-          maxWidth: '150px',
+          maxHeight: '6vw',
+          maxWidth: '10vw',
           height: '100%',
           width: '100%',
         }}

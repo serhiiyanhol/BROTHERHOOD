@@ -19,7 +19,7 @@ export default function Team({
         id="team"
         style={{
           maxHeight: '990px',
-          height: '66vw',
+          height: '120vw',
           backgroundRepeat: 'no-repeat',
           backgroundImage: `url(https:${teamBackground.fields.file.url})`,
           backgroundSize: '80%',

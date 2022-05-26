@@ -24,7 +24,7 @@ export default function Activity({
         <WrapperLight id="activity">
           {title}
           <Subtitle>
-            {activitySubtitle && (<h4>{activitySubtitle}</h4>)}
+            {activitySubtitle && (<span>{activitySubtitle}</span>)}
           </Subtitle>
           <Row>
             <ActivityElement item={activityList[0]} />

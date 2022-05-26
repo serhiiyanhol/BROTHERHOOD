@@ -22,6 +22,8 @@ a.anchor {
   color: #e1efe6;
   text-decoration: underline;
   text-transform: uppercase;
+  font-size: 2vw;
+  white-space: nowrap;
 }
 
 a.anchor:hover {
