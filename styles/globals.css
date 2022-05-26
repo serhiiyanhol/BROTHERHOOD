@@ -85,7 +85,8 @@ a.anchor:hover {
 
 #team {
   max-height: 1095px;
-  height: 120vw;
+  /*height: 120vw;*/
+  height: auto;
   background-repeat: no-repeat;
   background-size: 80%;
   background-position: center;
@@ -115,6 +116,7 @@ a.anchor:hover {
 @media (max-width: 1440px) {
   #team {
     max-height: 850px;
+    height: auto;
   }
 }
 
@@ -133,7 +135,6 @@ a.anchor:hover {
 @media (max-width: 425px) {
   #team {
     max-height: 410px;
-    height: 72vw;
   }
   #team p {
     font-size: 3vw;
@@ -143,6 +144,5 @@ a.anchor:hover {
 @media (max-width: 320px) {
   #team {
     max-height: 430px;
-    height: 72vw;
   }
 }
